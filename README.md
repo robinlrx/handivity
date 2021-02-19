@@ -7,7 +7,7 @@ Projet réalisé en DUT MMI 2e année
 - HTML, CSS, JS
 - [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview?hl=fr)
 - [Swiper.js](https://swiperjs.com/)
-- Suite Adobe (Photoshop, Illustrator, After Effect, XD)
+- Suite Adobe (Photoshop, Illustrator, After Effect, XD, Premiere Pro)
 
 ## Configuration
 Dans *connexion.php*, modifier les variables ```host, dbname, user, password``` par les infos de la bdd
