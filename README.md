@@ -16,4 +16,3 @@ Projet réalisé en DUT MMI 2e année
 
 ### Communicant
 - [Mehdi](http://mehditanine.fr/)
-"# handivity" 
