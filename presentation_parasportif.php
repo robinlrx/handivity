@@ -1,4 +1,9 @@
-<?php include("php/connexion.php"); ?><?php $requete="SELECT * FROM sportif, sport, rel_sportif_sport WHERE sportif.id_sportif={$_GET["id"]} AND rel_sportif_sport.id_sportif={$_GET["id"]} AND rel_sportif_sport.id_sport = sport.id_sport";$stmt=$db->query($requete);$result=$stmt->fetch(PDO::FETCH_ASSOC); ?>
+<?php include("php/connexion.php"); ?>
+<?php 
+	$requete="SELECT * FROM sportif, sport, rel_sportif_sport WHERE sportif.id_sportif={$_GET["id"]} AND rel_sportif_sport.id_sportif={$_GET["id"]} AND rel_sportif_sport.id_sport = sport.id_sport";
+	$stmt=$db->query($requete);
+	$result=$stmt->fetch(PDO::FETCH_ASSOC); 
+?>
 <!DOCTYPE html>
 <html lang="fr">
 
