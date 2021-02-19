@@ -14,14 +14,20 @@ Dans *connexion.php*, modifier les variables ```host, dbname, user, password``` 
 
 Dans *presentation_parasportif.php*, modifier les variables ```url-site``` par le nom de domaine :
 
-ligne 216 : ```html
-value="url-site/presentation_parasportif.php?id=<?php echo $result["id_sportif"] ?>"```
+ligne 216 : 
+```html
+value="url-site/presentation_parasportif.php?id=<?php echo $result["id_sportif"] ?>"
+```
 
-ligne 225 : ```html
-data-url="url-site/presentation_parasportif.php?id=<?php echo $result["id_sportif"] ?>"```
+ligne 225 : 
+```html
+data-url="url-site/presentation_parasportif.php?id=<?php echo $result["id_sportif"] ?>"
+```
 
-ligne 231 : ```html
-data-url="url-site/presentation_parasportif.php?id=<?php echo $result["id_sportif"] ?>"```
+ligne 231 : 
+```html
+data-url="url-site/presentation_parasportif.php?id=<?php echo $result["id_sportif"] ?>"
+```
 
 ## Equipe
 ### Développeurs
