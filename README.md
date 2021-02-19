@@ -4,6 +4,15 @@ Projet réalisé en DUT MMI 2e année
 ### Lien du site
 [Handivity](https://handivity.robinleroux.fr/)
 
+## Configuration
+Dans *connexion.php*, modifier les variables ```host, dbname, user, password``` par les infos de la bdd
+
+Dans *‘presentation_parasportif.php*, modifier les variables ```url-site``` par le nom de domaine :
+
+ligne 216 : ```value="url-site/presentation_parasportif.php?id=<?php echo $result["id_sportif"] ?>"```
+ligne 225 : ```data-url="url-site/presentation_parasportif.php?id=<?php echo $result["id_sportif"] ?>"```
+ligne 231 : ```data-url="url-site/presentation_parasportif.php?id=<?php echo $result["id_sportif"] ?>"```
+
 ## Equipe
 ### Développeurs
 - [Robin](https://github.com/robinlrx)
